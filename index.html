@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML-CSS-Cheatsheet</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div>
+            <h1>HTML - CSS Cheat Sheet</h1>
+            <div>
+            <p>Everyone gets stuck and forgets things now and then, so using a 'Cheatsheet' isn't really cheating, it is more of a helpful guide then anything else. I have put together a few of the most basic HTML tags, HTML table tags and CSS selectors/properties into tables.</p>
+            <p>Let's start with HTML Tags first then follow on with HTML tables.</p>
+        </div>
+            <table>
+                <thead>
+                    <th colspan="3">HTML Tags</th>
+                </thead>
+                <tbody>
+                    <tr class="column-titles">
+                        <td>Name</td>
+                        <td>Tag</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Comment</td>
+                        <td class="tag">&lt;!-- comment here --&gt;</td>
+                        <td>Used to comment sections of code within the HTML file to make it more readable and understable.</td>
+                    </tr>
+                    <tr>
+                        <td>Headings</td>
+                        <td class="tag">&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</td>
+                        <td>Adds heading text and depending on which one is used depends on how big the text is</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph</td>
+                        <td class="tag">&lt;p&gt;</td>
+                        <td>Adds a paragraph of text to the page.</td>
+                    </tr>
+                    <tr>
+                        <td>Div</td>
+                        <td class="tag">&lt;div&gt;</td>
+                        <td>The div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.</td>
+                    </tr>
+                    <tr>
+                        <td>Link</td>
+                        <td class="tag">&lt;a href="" target="_blank"&gt;&lt;/a&gt;</td>
+                        <td>Linking text to another website and open it in a new tab.</td>
+                    </tr>
+                    <tr>
+                        <td>Image</td>
+                        <td class="tag">&lt;img src="" alt=""&gt;</td>
+                        <td>Adds an image and if the image doesn't load or is not supported it will show the alt.</td>
+                    </tr>
+                    <tr>
+                        <td>Image Link</td>
+                        <td class="tag">&lt;a href="" target="_blank"&gt;&lt;img src=""&gt;&lt;/a&gt;</td>
+                        <td>Adds an anchor link to the image</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+            <table>
+                <thead>
+                    <th colspan="3">HTML Tables</th>
+                </thead>
+                <tbody>
+                    <tr class="column-titles">
+                        <td>Name</td>
+                        <td>Tag</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Table</td>
+                        <td class="tag">&lt;table&gt</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td>Table Head</td>
+                        <td class="tag">&lt;thead&gt;</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>Table Body</td>
+                        <td class="tag">&lt;tbody&gt;</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>Table Row</td>
+                        <td class="tag">&lt;tr&gt;</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>Table Data</td>
+                        <td class="tag">&lt;td&gt;</td>
+                        <td>The table data within the row container.</td>
+                    </tr>
+                    <tr>
+                        <td>Table Foot</td>
+                        <td class="tag">&lt;tfoot&gt;</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>Column Span</td>
+                        <td class="tag">&lt;colspan&gt</td>
+                        <td class="description">Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td>Row Span</td>
+                        <td class="tag">&lt;rowspan&gt;</td>
+                        <td class="description">Defines how many rows a td element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <div>
+                <p>Here are some of the most commonly used CSS properties and selectors.</p>
+            </div>
+            <table>
+                <thead>
+                    <th colspan="3">CSS Selectors And Properties</th>
+                </thead>
+                <tbody>
+                    <tr class="column-titles">
+                        <td>Name</td>
+                        <td>Selectors/Property</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>ID Selector</td>
+                        <td class="tag">#</td>
+                        <td>Element ID selector. Use this in front of an ID name.</td>
+                    </tr>
+                    <tr>
+                        <td>Class Selector</td>
+                        <td class="tag">.</td>
+                        <td>Element class selector. Use this in front of a class name.</td>
+                    </tr>
+                    <tr>
+                        <td>Margin</td>
+                        <td class="tag">margin:</td>
+                        <td>Shorthand property to set values for the thickness of the margin area</td>
+                    </tr>
+                    <tr>
+                        <td>Text Align</td>
+                        <td class="tag">text-align:</td>
+                        <td>Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Family</td>
+                        <td class="tag">font-family:</td>
+                        <td>Specifies a prioritized list of font family names or generic family names.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Size</td>
+                        <td class="tag">font-size</td>
+                        <td>Indicates the desired height of glyphs from the font.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Weight</td>
+                        <td class="tag">font-weight:</td>
+                        <td>Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Style</td>
+                        <td class="tag">font-style</td>
+                        <td>Allows italic or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face.</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td class="tag">color:</td>
+                        <td>Sets the color of an element's text</td>
+                    </tr>
+                    <tr>
+                        <td>Background Color</td>
+                        <td class="tag">background-color:</td>
+                        <td>Sets the background color of an element.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+            <p>Hopefully these tables were able to assist you and help you advance with your web development.</p>
+            <p>If you are need of any help, please don't hesitate to contact me </p>
+        </div>
+        <footer>
+            <div>
+                <p class="footer">Created by: Christopher Gorrey</p>
+                <p class="footer">Contact: <span id="email">cgorrey@gmail.com</span></p>
+            </div>
+        </footer>
+    </body>
+</html>
