@@ -61,14 +61,11 @@ td {
     background-color: chocolate;
     position: absolute;
     width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
  }
 
  #email {
     color: blue;
- }
-
- .footer {
-    font-size: medium;
-    font-weight: bold;
-    color: white;
  }
